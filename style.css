@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.box {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.flex-box {
+    display: flex;
+}
+
+header {
+    background-color: #add8e7;
+    padding-top: 15px;
+    padding-bottom: 5px;  
+}
+
+#bgd-box {
+    background-color: #daa51e;  
+    
+}
+
+.logo {
+    width: 25%;
+    border: dashed black 2px;
+    padding: 15px 10px; 
+}
+
+.link {
+    width: 50%;
+    border: dashed black 2px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.login {
+    width: 25%;
+    border: dashed black 2px;
+    padding: 15px 10px;
+    text-align: right;
+}
+
+.first-box {
+    display: flex;
+    background-color: #00018b;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rose {
+    background-color: #ef82ed;
+    width: 50%;
+    height: 60%;
+    border: dashed black 2px;
+}
+
+.rose-column {
+    background-color:#ffc0ca ;
+    width: 40%;
+    border: 2px dashed;
+    min-height: 200px;
+}
+
+.blue-column {
+    background-color: #1e90ff;
+    width: 60%;
+    border: 2px dashed;
+    min-height: 200px;    
+}
+
+#box-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bgd-white {
+    background-color: white;
+    padding: 10px 0;
+    
+}
+
+.bgd-grey {
+    background-color: #d3d3d3;
+    padding: 10px 0;
+    
+}
+
+.green-column{
+    background-color: green;
+    width: 100%;
+    border: 2px dashed;
+    min-height: 400px;  
+}
+
+.bgd-black {
+    background-color: black;
+    padding: 10px 0;
+}
+
+.left-column {
+    background-color:#f08180 ;
+    width: 100%;
+    border: 2px white dashed;
+    min-height: 250px;
+}
+
+.four-column {
+    background-color: #20b3aa ;
+}
+
+
+.column {
+    border: 2px white dashed;
+}
+
+.footer-column {
+    background-color: #20b3aa;
+    width: 100%;
+    min-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ #footer-logo {
+    width: 10%;
+    border: 2px black dashed;
+    background-color: #f08180;
+}
+
+#button {
+    width: 10%;
+    border: 2px black dashed;
+    background-color: #f08180;
+    
+}
